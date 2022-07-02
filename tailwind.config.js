@@ -1,28 +1,13 @@
-// module.exports = {
-//   content: [
-//     "./src/**/*.{js,jsx,ts,tsx}",
-//   ],
-//   theme: {
-//     extend: {},
-//   },
-//   plugins: [],
-// }
-
 module.exports = {
   mode: "jit",
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'media' ,
+  //or 'class'
   theme: {
     backgroundImage: {
-      // hero:
-      // link abacus_3.jpg from public folder
       hero: "url('/public/images/Abacus_3.jpg')",
-       
-
-      // 'hero': 'url("images/abacus_3.jpg")',
-        // "url('https://html.creativegigstf.com/vCamp/vCamp/images/assets/bg_01.png')",
     },
     extend: {
       colors: {

@@ -1,15 +1,15 @@
-// import { div } from "react-router-dom";
+import React from "react";
 import Layout from "../components/Layout";
 import Timer from "../components/timer";
 
 
 
-const IndexPage = () => (
+const Home = () => (
 <Layout>
   <img
       src="/images/xera.svg"
       alt="andrey-profile.web.app" 
-         className="absolute h-40 md:h-44 lg:h-72  -top-2  -right-3  lg:right-6 lg:top-10 animate-blob"
+         className="absolute h-40 md:h-44 lg:h-72  top-10  md:-top-2 right-2  md:-right-3  lg:right-6 lg:top-10 animate-blob"
     />
     
     <img
@@ -116,4 +116,4 @@ const IndexPage = () => (
 
 );
 
-export default IndexPage;
+export default Home;
